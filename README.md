@@ -23,8 +23,11 @@ Select from 1.X, 2.Y, 3.Z direction for cutting the point cloud.
 
 ## Principle
 Do a quick sorting for the point cloud along the designed direction.
+
 Then cut the sorting point cloud into two parts. 
+
 One cloud ranges from Point {1} to Point {(0.5+IoU/2)*PCsize}.
+
 Another cloud ranges from Point {(0.5-IoU/2)*PCsize} to Point {PCsize}.
 
 ## About Author
