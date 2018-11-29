@@ -15,7 +15,7 @@ A useful tool to cut a set of point cloud into two parts with a designed IoU (ov
 
 IoU (ranging from 0 to 1) is calculated as the number of points in intersection area over the point number of the original point cloud.
 
-For a cut into two non-overlapping segmentations, IoU should be set as 0.
+For example, for a cut into two non-overlapping segmentations, IoU should be set as 0.
 
 ### 3. Select the cut direction 
 
